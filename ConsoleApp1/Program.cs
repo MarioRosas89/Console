@@ -6,6 +6,8 @@ using System.Net.Sockets;
 using System.Net;
 using System.Text;
 
+//Cambio mario
+
 int[] arr1 = { 1, 2, 3, 1 };
 int[] arr2 = { 51, 43, 12, 12, 18, 14 , 13 };
 var lnkd1 = new LinkedList<int>(arr1);
