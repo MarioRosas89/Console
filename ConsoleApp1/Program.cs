@@ -7,6 +7,7 @@ using System.Net;
 using System.Text;
 
 //Cambio mario
+Console.WriteLine("Hola mundo!");
 
 int[] arr1 = { 1, 2, 3, 1 };
 int[] arr2 = { 51, 43, 12, 12, 18, 14 , 13 };
@@ -21,6 +22,9 @@ var lnkd2 = new LinkedList<int>(arr2);
 //countSubarrays(new List<int> { 2, 3, 4 }, 6);
 //findInterestingPairs(new List<int> { 4, 1, 3, 2, 0, 2 }, 1);
 //Console.WriteLine("Hello, World!");
+
+
+
 static int CountTriplets(int[] nums)
 {
     int cnt = 0;
