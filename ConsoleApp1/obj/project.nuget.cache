@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QRF4pLqH+1OEkjNcyb/ujTuxf7XJhxUZVXa558DrPZCYQzxHiOcFJRD+8Pvo8rhfv/fW+9ER8PIUvK9wlJtKrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mario.rosas\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario.rosas\\.nuget\\packages\\ibmmqdotnetclient\\9.3.2\\ibmmqdotnetclient.9.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

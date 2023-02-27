@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "IBMMQDotnetClient": "9.3.2"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "IBMMQDotnetClient/9.3.2": {
+        "runtime": {
+          "lib/net6.0/amqmdnetstd.dll": {
+            "assemblyVersion": "9.3.2.0",
+            "fileVersion": "9.3.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBMMQDotnetClient/9.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-esl1ofcivnYL43eeA7uEFmN8Qb+CcydgaMfWzlQvInrLi/utHoCwEWgophZQyQzmxYr+R/PSAcHDJGgJFjnnoQ==",
+      "path": "ibmmqdotnetclient/9.3.2",
+      "hashPath": "ibmmqdotnetclient.9.3.2.nupkg.sha512"
+    }
+  }
+}

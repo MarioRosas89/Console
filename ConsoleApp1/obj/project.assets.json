@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "IBMMQDotnetClient/9.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/amqmdnetstd.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/amqmdnetstd.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IBMMQDotnetClient/9.3.2": {
+      "sha512": "esl1ofcivnYL43eeA7uEFmN8Qb+CcydgaMfWzlQvInrLi/utHoCwEWgophZQyQzmxYr+R/PSAcHDJGgJFjnnoQ==",
+      "type": "package",
+      "path": "ibmmqdotnetclient/9.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ibmmqdotnetclient.9.3.2.nupkg.sha512",
+        "ibmmqdotnetclient.nuspec",
+        "lib/net6.0/amqmdnetstd.dll",
+        "lib/netstandard2.0/amqmdnetstd.dll",
+        "licenses/LA_cs.rtf",
+        "licenses/LA_de.rtf",
+        "licenses/LA_el.rtf",
+        "licenses/LA_en.rtf",
+        "licenses/LA_es.rtf",
+        "licenses/LA_fr.rtf",
+        "licenses/LA_in.rtf",
+        "licenses/LA_it.rtf",
+        "licenses/LA_ja.rtf",
+        "licenses/LA_ko.rtf",
+        "licenses/LA_lt.rtf",
+        "licenses/LA_pl.rtf",
+        "licenses/LA_pt.rtf",
+        "licenses/LA_ru.rtf",
+        "licenses/LA_sl.rtf",
+        "licenses/LA_tr.rtf",
+        "licenses/LA_zh.rtf",
+        "licenses/LA_zh_TW.rtf",
+        "licenses/non_ibm_license.rtf",
+        "licenses/notices.rtf"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "IBMMQDotnetClient >= 9.3.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mario.rosas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mario.rosas\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\mario.rosas\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\mario.rosas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mario.rosas\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mario.rosas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "IBMMQDotnetClient": {
+            "target": "Package",
+            "version": "[9.3.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
